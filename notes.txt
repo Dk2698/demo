@@ -8,7 +8,7 @@
 3. initialize repository
     git init 
     to create a local copyof a remote repository
-    git clone url -> master(main) means clone project folder and all commit
+    git clone url -> master(main) means clone project folder and all commit 
     git clone -b branch_name url -> branch clone
 4. add the files to git index
     git add file1 file2
@@ -16,3 +16,15 @@
 
 5. commit  -> save the current index as a snapshot and commit it to project
     git commit -m "your message"
+    git show  -> it's show change of recent commit
+    git log -> view the entrie commit history for the current branch
+    git log --oneline only one commit per line terminal 
+
+    change most recent git commit message
+    git commit --amend -> one editor and write mesage
+    git commit --amend -m "an updated commit message"
+
+6. branch
+    git branch branch_name -> to create a new brach
+    git branch --list -> show all branch
+    git checkout branch_name -> switch branch
