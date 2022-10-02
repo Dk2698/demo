@@ -28,3 +28,12 @@
     git branch branch_name -> to create a new brach
     git branch --list -> show all branch
     git checkout branch_name -> switch branch
+
+
+    all staging area than after not commit 
+    git checkout main -> are you not switch branch 
+    Please commit your changes or stash them before you switch branches.
+    Aborting
+
+    git branch -d feature_main -> delete local branch
+    git push origin -d (remote_brach_name)
