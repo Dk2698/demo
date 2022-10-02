@@ -36,4 +36,17 @@
     Aborting
 
     git branch -d feature_main -> delete local branch
-    git push origin -d (remote_brach_name)
+    git push origin -d (remote_branch_name) -> delete remote_branch_name 
+
+
+update 
+    git status -> view file that are staged, not staged 
+
+    git remote -v -> check url  list 
+    add url  food alias name 
+    git remote add food https://github.com/Dk2698/Food_Delivery.git
+
+    push all the local commit in your brach to the remote branch
+    git push  -> that brnach on origin url
+    git push remote branch 
+    git push origin HEAD:develop means branch push
