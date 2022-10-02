@@ -54,6 +54,7 @@ update
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     git merge branch_name -> merge changes/ commit from a specified brach into the current branch
     
@@ -67,12 +68,18 @@ update
 >>>>>>> 104a5db (git pull)
 =======
 >>>>>>> 104a5db (git pull)
+=======
+>>>>>>> 104a5db (git pull)
     some change in  remote branch than you have pull to that branch on local
     git pull 
 
 Reset 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+     git reset 
+>>>>>>> 104a5db (git pull)
+=======
      git reset 
 >>>>>>> 104a5db (git pull)
 =======
