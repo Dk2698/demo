@@ -50,3 +50,9 @@ update
     git push  -> that brnach on origin url
     git push remote branch 
     git push origin HEAD:develop means branch push
+
+    some change in  remote branch than you have pull to that branch on local
+    git pull 
+
+Reset 
+     git reset 
