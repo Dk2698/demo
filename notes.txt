@@ -54,6 +54,9 @@ update
     some change in  remote branch than you have pull to that branch on local
     git pull 
 
+    after merge conflit 
+    git fetch all change and commit in comming
+
 Reset 
      git reset 
 
