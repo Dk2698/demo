@@ -63,28 +63,8 @@ update
     M       notes.txt
     Your branch is ahead of 'origin/develop' by 1 commit.
     (use "git push" to publish your local commits)
-=======
-=======
->>>>>>> 104a5db (git pull)
-=======
->>>>>>> 104a5db (git pull)
-=======
->>>>>>> 104a5db (git pull)
     some change in  remote branch than you have pull to that branch on local
     git pull 
 
 Reset 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      git reset 
->>>>>>> 104a5db (git pull)
-=======
-     git reset 
->>>>>>> 104a5db (git pull)
-=======
-     git reset 
->>>>>>> 104a5db (git pull)
-=======
-     git reset 
->>>>>>> 104a5db (git pull)
