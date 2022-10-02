@@ -51,6 +51,7 @@ update
     git push remote branch 
     git push origin HEAD:develop means branch push
 
+<<<<<<< HEAD
 
     git merge branch_name -> merge changes/ commit from a specified brach into the current branch
     
@@ -59,3 +60,10 @@ update
     M       notes.txt
     Your branch is ahead of 'origin/develop' by 1 commit.
     (use "git push" to publish your local commits)
+=======
+    some change in  remote branch than you have pull to that branch on local
+    git pull 
+
+Reset 
+     git reset 
+>>>>>>> 104a5db (git pull)
