@@ -7,7 +7,7 @@
 
 3. initialize repository
     git init 
-    to create a local copyof a remote repository
+    to create a local copy of a remote repository
     git clone url -> master(main) means clone project folder and all commit 
     git clone -b branch_name url -> branch clone
 4. add the files to git index

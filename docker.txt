@@ -1,0 +1,123 @@
+Runtime
+    - runc
+    - containered
+
+docker Engine, Daemon
+    - server is running -> server Daemon
+     dcker cli -> rest api -> derver Daemon
+
+Orchestration
+
+
+clone ->  docker runn --name repo  alpine/git clone  url
+docker cp repo:/git/getting-satred/ .
+
+build  -> cd getting-sstarted 
+docker build -t docker101tutorial .
+
+run 
+docker run -d -p 80:80 \
+    --name docker-tutorial docker101tutorial
+share 
+ docker tag docker101tutorial / docker101tutorial
+ docker push /docker101tutorial
+
+
+Dockerfile -> Image -> container 
+list of instation
+
+
+
+docker run hello-world
+run-> run image create a container 
+hello-world it's image 
+pull means  download form dockerhub
+
+
+docker run -it ubuntu bash
+docker images
+docker pull mysql
+docker ubuntu:16.04
+docker ps 
+docker run -it ubuntu:16.04
+docker container  ls
+
+attacted to run container with bash
+docker container exec -it containerid bash
+docker run mongo
+docker stop 0255a9807e56(containerid)
+docker ps -a
+docker rm containerid
+
+docker inspect ca38902b77b7(ubuntu)
+docker logs container id
+exit
+
+docker container prune -f  means deleted  and stop container
+
+docker run alpine ping www.google.com
+docker run -d alpine ping www.google.com
+
+docker run ubuntu echo hey
+docker logs containerid
+docker logs --sinec 5s 9694
+docker stop 9694
+
+docker rmi alpine -f  -> remove images
+
+
+docker run -d nginx
+docker run -d -p 8080:80 nginx
+nginx default port 80 -> listen
+localhost 8080: container in enginx port
+docker logs containerid
+docker stop containerid
+docker rm containerid
+
+
+docker run -it ubuntu
+touch names.txt
+echo "hey my name is kumar" >> names.txt
+cat names.txt
+
+docker run -it ubuntu // create new container
+docker start f293788cd240  // start
+docker exec -it f293788cd240 bash // open container 
+
+commit 
+docker commit -m "message" f293788cd240 name_ubuntu:1.01 // commit on container
+docker ps 
+docker stop  f293788cd240 
+docker images
+docker run -it name_ubuntu:1.01  
+
+docker images -q // get id of images
+docker rmi $(docker images -q) // remove all images
+
+docker rmi imageId -f
+
+docker run ubuntu:16.04 
+
+docker images -q --no-trunc
+docker inspect imageId
+
+how to create docker file
+
+touch Dockerfile
+vi Dockerfile
+cat Dockerfile
+write -> 
+FROM ubuntu
+RUN apt-get update
+CMD ["echo", "hello wolrd"]
+
+after bulid docker
+docker build -t myImage:1.01 . (path Dockerfile)
+
+account on dockerHub 
+docker login
+
+mkdir project 
+mv Dockerfile project
+cd project
+
