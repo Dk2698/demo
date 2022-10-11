@@ -1,0 +1,38 @@
+Yaml course 
+1.introduction
+2. Syntax
+3. prpperty/datatypes
+4. YAML Tools
+
+what is YAML
+child - parent - markup
+YAML ain't markup language
+-> data format used to exchange data
+-> similar to xml & Json
+-> in YAML, you can store only data, and not commands
+
+data serialization
+data object -> collection of data in memory
+object share to android, website , ML-> onle one format
+how to share data -> data serialization it's process converting
+data objects into complex data structures(stream of bytes) in store in data
+
+object =>  stream of bytes -> database, ymal, memory
+code+ data 
+
+html store -> document 
+ymal store - object data
+data serialization language : YAML, Json,Xml
+
+create various object
+like 10 server running 
+return type to provider like ather language
+used -> configuration files -> docker/ kubernative
+-> logs, caches
+Benefits -> human readble
+-> simple & easy to read
+-> it has a strict syntax -> identation is important
+-> Easily convertable to json, xml 
+-> most language use ymal
+
+
