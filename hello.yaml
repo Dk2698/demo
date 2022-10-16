@@ -1,0 +1,20 @@
+"apple" : "I am a red fruit"
+1 : "this is kumar roll number"
+
+#lists datatype 
+-apple 
+-mango
+-banana
+
+# case-senitive
+
+# block style
+cities: 
+  - "New Delhi"
+  - Mumbai
+  - Bangalore
+---
+citie: [new delhi,mumbai]
+---
+{mango: "yello fruuit", age: 56}
+...

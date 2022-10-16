@@ -34,5 +34,26 @@ Benefits -> human readble
 -> it has a strict syntax -> identation is important
 -> Easily convertable to json, xml 
 -> most language use ymal
+-> parsers, etc various tool ,
 
 
+hashmap-> dict
+key -> value
+"apple" : "I am a red fruit"
+1 : "this is kumar roll number"
+
+#lists datatype 
+-apple 
+-mango
+-banana
+
+// case-senitive
+
+# block style
+cities:
+    - new Delhi
+    - mumbai
+    - Bangalore
+
+key:space variable
+name: kumar
