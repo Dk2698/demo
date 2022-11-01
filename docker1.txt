@@ -1,0 +1,49 @@
+install 
+1) docker.exe
+2) wsl2
+3) enable virualization
+docker -v
+docker --version -> check version
+docker pull openjdk  -> from dockerhub  to download
+docker images -> all image show in your system
+docker pull openjdk:18 -> with tage means version
+docker search MYSQL -> search any image    
+
+start image 
+docker run flag nameImage
+docker run  --name  pythonContainer -d imageId
+docker run  --name  pythonContainer -it -d imageId/imageName
+-> going to inside container
+docker exec -it containerId  python3(command)-> depends on container
+docker exec -it 9a6174938809 bash
+
+docker ps 
+docker ps -a
+docker inspect containerIdd
+exit -> out of container
+docker run --name nginxServer -d -p 8080:80 nginx
+docker stop containerId/name
+docker restart containerId/name
+
+docker rm imageId/name  not show => docker ps -a 
+docker rmi imageID/name -> remove image
+
+
+// check the version
+docker -v
+// pull image
+docker pull [imageName]
+
+dockerHub 
+1) docker login -> login
+2) docker commit -> save local system image
+3) docker push -> push
+3) docker copy
+5) docker logs containerName 
+6) docker volumne 
+7) docker logout 
+
+dockerFile -> buildImage -> run
+1) create file name with no extension Dockerfile 
+2) docker build -t myubuntuImage .
+3) docker run --name alisacontainerName   containerID
